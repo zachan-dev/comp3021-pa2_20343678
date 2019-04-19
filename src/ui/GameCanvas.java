@@ -1,6 +1,5 @@
 package ui;
 
-import javafx.beans.property.DoubleProperty;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.image.Image;
@@ -161,8 +160,8 @@ public class GameCanvas extends StackPane {
 
         GraphicsContext gc = canvasLayers[LINE_LAYER].getGraphicsContext2D();
         gc.setLineWidth(2.0);
-        gc.setStroke(Color.LIGHTGREEN);
-        if (a_Owner == b_Owner) gc.setStroke(Color.RED);
+        gc.setStroke(Color.RED);
+        if (a_Owner == b_Owner) gc.setStroke(Color.LIGHTGREEN);
 
         Cell a_location = toCanvasCoordinates(gameMap.getCityLocation(a));
         Cell b_location = toCanvasCoordinates(gameMap.getCityLocation(b));
