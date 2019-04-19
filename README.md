@@ -12,7 +12,7 @@ Overview
 
 * * * * *
 
-Description {#intro}
+<h2 id="intro"> Description </h2>
 -----------
 
 The PA2 is an extension of PA1. It is a turn-based multi-player
@@ -25,7 +25,7 @@ apply the knowledge you have learnt in Lab 9 (GUI Programming), Lab 10
 
 * * * * *
 
-Skeleton Code {#skeleton}
+<h2 id="skeleton"> Skeleton Code </h2>
 -------------
 
 You can download the skeleton code [here](mdres/Comp3021-PA2-Spring2019-Skeleton.zip).
@@ -44,7 +44,7 @@ And then import it to IntelliJ.
 9.  When prompted to choose JDK version, choose JDK 10.0.2
 10. Click finish
 
-GUI Introduction {#gui}
+<h2 id = "gui"> GUI Introduction </h2>
 ----------------
 
 #### The Welcome Screen
@@ -74,7 +74,7 @@ this interface.
 
 
 
-#### The Gameplay Interface {#gamplay}
+#### <h4 id = "gameplay"> The Gameplay Interface </h4>
 
 ![](mdres/gameplay.jpg) The above
 picture shows the gameplay interface. There are two main parts, the game
@@ -124,7 +124,7 @@ canvas on the left and the info bar on the right.
 
 * * * * *
 
-Suggested Order to Finish TODOs {#todos}
+<h2 id = "todos"> Suggested Order to Finish TODOs </h2>
 -------------------------------
 
 You are suggested to finish the TODOs in the following order so it's
@@ -138,7 +138,7 @@ easier for you to finish the assignment.
     follow the instructures
     [here](#hidpi) to disable
     the DPI scaling feature of JavaFX.
-    \
+    
 2.  Finish the following TODOs:
     1.  "initialize all handers" in `GameApplication.java` (event
         handlers will be covered in the lectures on April 25, and April
@@ -194,7 +194,7 @@ easier for you to finish the assignment.
 
 * * * * *
 
-Disable DPI scaling {#hidpi}
+<h2 id = "hidpi"> Disable DPI scaling </h2>
 -------------------
 
 You only need to do this if the interface does not fit into the display
@@ -218,7 +218,7 @@ of your computer!
 
 * * * * *
 
-Submission Details and Deadline {#submission}
+<h2 id = "submission"> Submission Details and Deadline </h2>
 -------------------------------
 
 To submit your PA, you can zip your complete project directory under
