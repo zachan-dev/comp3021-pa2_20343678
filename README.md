@@ -12,8 +12,7 @@ Overview
 
 * * * * *
 
-<h2 id="intro"> Description </h2>
------------
+## <h2 id="intro"> Description </h2>
 
 The PA2 is an extension of PA1. It is a turn-based multi-player
 strategy game. At least one of the players should be a human player,
@@ -25,8 +24,7 @@ apply the knowledge you have learnt in Lab 9 (GUI Programming), Lab 10
 
 * * * * *
 
-<h2 id="skeleton"> Skeleton Code </h2>
--------------
+## <h2 id="skeleton"> Skeleton Code </h2>
 
 You can download the skeleton code [here](mdres/Comp3021-PA2-Spring2019-Skeleton.zip).
 And then import it to IntelliJ.
@@ -44,8 +42,7 @@ And then import it to IntelliJ.
 9.  When prompted to choose JDK version, choose JDK 10.0.2
 10. Click finish
 
-<h2 id = "gui"> GUI Introduction </h2>
-----------------
+## <h2 id = "gui"> GUI Introduction </h2>
 
 #### The Welcome Screen
 
@@ -124,8 +121,7 @@ canvas on the left and the info bar on the right.
 
 * * * * *
 
-<h2 id = "todos"> Suggested Order to Finish TODOs </h2>
--------------------------------
+## <h2 id = "todos"> Suggested Order to Finish TODOs </h2>
 
 You are suggested to finish the TODOs in the following order so it's
 easier for you to finish the assignment.
@@ -194,8 +190,7 @@ easier for you to finish the assignment.
 
 * * * * *
 
-<h2 id = "hidpi"> Disable DPI scaling </h2>
--------------------
+## <h2 id = "hidpi"> Disable DPI scaling </h2>
 
 You only need to do this if the interface does not fit into the display
 of your computer!
@@ -218,8 +213,7 @@ of your computer!
 
 * * * * *
 
-<h2 id = "submission"> Submission Details and Deadline </h2>
--------------------------------
+## <h2 id = "submission"> Submission Details and Deadline </h2>
 
 To submit your PA, you can zip your complete project directory under
 IntelliJ, and then name it "PA2.zip", and submit this file to the
