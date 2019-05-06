@@ -1,7 +1,6 @@
 import javafx.application.Application;
 import javafx.application.Platform;
 import javafx.scene.Scene;
-import javafx.scene.control.ListView;
 import javafx.scene.layout.HBox;
 import javafx.stage.Stage;
 import pa1.City;
@@ -11,7 +10,10 @@ import pa1.Player;
 import pa1.exceptions.TooPoorException;
 import pa1.ministers.Minister;
 import pa1.technologies.Technology;
-import ui.*;
+import ui.EndGame;
+import ui.GameCanvas;
+import ui.InfoBar;
+import ui.Menu;
 
 import java.io.IOException;
 import java.util.List;
@@ -77,7 +79,7 @@ public class GameApplication extends Application {
                  *
                  */
 
-                int actionNum = getRandomInt(9);
+                int actionNum = getRandomInt(10);
 
                 City city = chooseOneRandomly(player.getCities());
 
@@ -161,7 +163,7 @@ public class GameApplication extends Application {
         }
 
         else {
-            infoBar.setDisableButtons(false);
+            infoBar.setDisableButtons(true);
             ComputerThread computerThread = new ComputerThread();
             Thread thread = new Thread(computerThread);
             thread.start();
